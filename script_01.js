@@ -54,18 +54,15 @@
 /***** 04 Beispiel - Berechnung ******/
 
 // Deklaration
-// let ageJohn, ageMark;
-// const birthYearJohn = 2000;
-// const birthYearMark = 1990;
+let ageJohn, ageMark;
+const birthYearJohn = 2000;
+const birthYearMark = 1990;
 
-// let year = ;
-// ageJohn = year - birthYearJohn;
-// ageMark = year - birthYearMark;
+let date = new Date();  // Systemfunktion Datum
+let year = date.getFullYear(); // spezifische Daten liefern lassen aus Variable -date-
+ageJohn = year - birthYearJohn;
+ageMark = year - birthYearMark;
 
-// console.log("ageJohn; " + ageJohn)
-// console.log("ageMark: " + ageMark)
+console.log("ageJohn; " + ageJohn)
+console.log("ageMark: " + ageMark)
 
-let date = new Date();
-let year = date.getFullYear();
-console.log(date);
-console.log(year);
