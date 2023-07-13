@@ -41,4 +41,13 @@
 // console.log("Datentyp: " + typeof test);
 // console.log("Inhalt: " + test);
 
+/****** 03a Variablen vs. Konstanten *******/
+
+// let firstName = "Max";  // Deklaration (Definition)
+// firstName = "Maxine";
+// console.log(firstName)  // Ausgabe
+
+// const firstName = "Max";  // Variable mit KONSTANTEM Inhalt
+// firstName = "Maxine";   // KEINE neue Zuweisung zur LZ mögloch! --->Fehler
+// console.log(firstName)  // Ausgabe
 
