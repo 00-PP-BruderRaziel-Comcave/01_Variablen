@@ -66,5 +66,5 @@
 
 // // Ausgabe
 // console.log("ageJohn; " + ageJohn)
-// console.log("ageMark: " + ageMark)
+console.log("ageMark: " + ageMark)
 
